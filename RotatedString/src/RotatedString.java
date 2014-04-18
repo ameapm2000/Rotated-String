@@ -1,4 +1,3 @@
-
 public class RotatedString {
 
 	public static void main(String[] args) 
@@ -13,7 +12,6 @@ public class RotatedString {
 		
 		if(length == s2.length() && length>0)
 		{
-			//String s = s1 + s2;
 			if((s1 + s2).contains(s2))
 				return true;
 		}
